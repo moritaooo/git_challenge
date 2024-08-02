@@ -1,0 +1,32 @@
+% cd Desktop
+% mkdir git_challenge
+% cd git_challenge
+% git init
+hint: Using 'master' as the name for the initial branch. This default branch name
+hint: is subject to change. To configure the initial branch name to use in all
+hint: of your new repositories, which will suppress this warning, call:
+hint:
+hint: 	git config --global init.defaultBranch <name>
+hint:
+hint: Names commonly chosen instead of 'master' are 'main', 'trunk' and
+hint: 'development'. The just-created branch can be renamed via this command:
+hint:
+hint: 	git branch -m <name>
+Initialized empty Git repository in /Users/morikawataiga/Desktop/git_challenge/.git/
+% git add hello_world.txt
+% git commit -m "hello_world.txtを追加"
+[master (root-commit) 896e270] hello_world.txtを追加
+ 1 file changed, 1 insertion(+)
+ create mode 100644 hello_world.txt
+% git add hello_world.txt
+% git commit -m "日本語訳を追記"       
+[master e7053c2] 日本語訳を追記
+ 1 file changed, 1 insertion(+)
+% git log --oneline
+e7053c2 (HEAD -> master) 日本語訳を追記
+896e270 hello_world.txtを追加
+% cd ..
+% mkdir kadai_005
+% cd kadai_005
+% touch kadai_005.txt
+
